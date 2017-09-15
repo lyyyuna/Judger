@@ -1,4 +1,4 @@
 import sys
 
 
-sys.exit(0)
+sys.exit(1)
