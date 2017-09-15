@@ -1,0 +1,13 @@
+language: python
+
+notifications:
+  email:
+    recipients:
+      - lyyyuna@outlook.com
+    on_success: always
+    on_failure: always
+
+python:
+  - "3.5"
+
+script: python tests/all_tests.py
